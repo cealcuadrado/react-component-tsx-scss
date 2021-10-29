@@ -1,9 +1,10 @@
+import Foo from '../shared/foo/Foo';
 import './Layout.scss';
 
 function Layout() {
     return (
         <div className="layout">
-            <p>Hola, mundo!</p>
+            <Foo name="Perico"/>
         </div>
     );
 }
